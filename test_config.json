@@ -1,0 +1,39 @@
+{
+    "simulation": {
+        "days": 7,
+        "blocks_per_day": 7200,
+        "tempo_blocks": 360,
+        "tao_per_block": "1.0",
+        "moving_alpha": "0.0003"
+    },
+    "subnet": {
+        "initial_dtao": "373070",
+        "initial_tao": "560.47",
+        "immunity_blocks": 0,
+        "moving_alpha": "0.0003",
+        "halving_time": 201600,
+        "circulating_supply": "768040",
+        "estimated_startup_days": "50.9",
+        "is_mature_subnet": true
+    },
+    "market": {
+        "other_subnets_avg_price": "1.4",
+        "daily_sell_pressure": "1.0",
+        "external_dtao_amount": "394970"
+    },
+    "strategy": {
+        "total_budget_tao": "1000",
+        "registration_cost_tao": "0",
+        "buy_threshold_price": "0.3",
+        "buy_step_size_tao": "0.5",
+        "sell_multiplier": "2.0",
+        "sell_trigger_multiplier": "3.0",
+        "reserve_dtao": "5000",
+        "sell_delay_blocks": 2,
+        "user_reward_share": "59",
+        "external_sell_pressure": "100.0",
+        "second_buy_delay_blocks": 7200,
+        "second_buy_tao_amount": "1000.0",
+        "immunity_period": 1
+    }
+}
